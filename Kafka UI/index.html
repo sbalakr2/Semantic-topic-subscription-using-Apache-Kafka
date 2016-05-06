@@ -1,0 +1,37 @@
+<html>
+   <head>
+		<title>Apache Kafka</title>
+		<link rel="stylesheet" type="text/css" href="styles.css">
+   </head>
+   <body onresize="resizeFunc()">
+		<div class="wrapper">
+			<div class="banner">
+				<h6>News Subscription using Apache Kafka</h6>
+			</div>
+			<div class="clear"></div>
+			<div class="container">
+				<div class="dummy">
+					<h6>News Subscription using Apache Kafka</h6>
+				</div>
+				<div id="top-part">
+					<div class="header">
+						<span class="cat-select"> Select Category: </span>
+						<select id="topic-option" onchange="loadData(this)">
+							<option value="tech">Technology</option>
+							<option value="business">Business</option>
+							<option value="sports">Sports</option>
+						</select>
+					</div>
+				</div>
+				<div class="content" id="content">
+					<ul id="article-list" class="article-list">
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>-->
+		<script src="news.js"></script>
+		<script type="text/javascript" src="script.js"></script>
+   </body>
+</html>

@@ -1,0 +1,10 @@
+#url,category
+http://feeds.abcnews.com/abcnews/moneyheadlines,business
+http://www.dailymail.co.uk/money/index.rss,business
+http://feeds.huffingtonpost.com/c/35496/f/677048/index.rss,business
+http://www.latimes.com/sports/rss2.0.xml,sports
+http://feeds.abcnews.com/abcnews/technologyheadlines,tech
+http://feeds.foxnews.com/foxnews/tech?format=xml,tech
+http://feeds.abcnews.com/abcnews/technologyheadlines,tech
+http://www.dailymail.co.uk/sport/index.rss,sports
+http://feeds.huffingtonpost.com/c/35496/f/677091/index.rss,sports
